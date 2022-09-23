@@ -7,7 +7,7 @@
   </ul>
   
 <!-- Bubble Sort -->
-### Bubble Sort
+## Bubble Sort
 The goal is to sort our dataset from lowest to highest number (ascending order).
 <br/>
 We compare each set in a list. If the first number (left) is greater than the second (right), we swap them!
