@@ -23,3 +23,4 @@ def bubbleSort(unsorted_list : list[int]):
       
     # Prints the sorting, so we can see the process
     print(unsorted_list)
+  return unsorted_list

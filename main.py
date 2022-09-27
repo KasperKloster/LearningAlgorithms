@@ -1,4 +1,4 @@
-from Sorting.bubbleSort import bubbleSort
+from sorting.bubbleSort import bubbleSort
 
 class Main:
   def __init__(self):
