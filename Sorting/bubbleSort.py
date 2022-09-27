@@ -11,13 +11,15 @@ Now we will do it again and again and again until the list is fully sorted. This
 """
 
 def bubbleSort(unsorted_list : list[int]):
-
   # Iterate through range in the unsorted list
-  for i in range(len(unsorted_list)):
+  for _ in range(len(unsorted_list)):
     # We are going through the length of the list minus 1, because we can't go further, after the last element.
-    # Otherwise we will get IndexError: list index out of range"
-    for j in range(0, len(unsorted_list) - i - 1):      
+    # Otherwise we will get "IndexError: list index out of range"
+    for j in range(0, len(unsorted_list) - 1):            
       # If current element is greater than next. Swap
       if unsorted_list[j] > unsorted_list[j + 1]:
         # Swap the two elements
         unsorted_list[j], unsorted_list[j + 1] = unsorted_list[j + 1], unsorted_list[j]
+      
+    # Prints the sorting, so we can see the process
+    print(unsorted_list)
